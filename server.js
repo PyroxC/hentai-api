@@ -6,7 +6,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // 🔑 তোমার TMDB API Key বসাও
-const TMDB_KEY = process.env.715e87a325247258521559a982d4c317;
+const TMDB_KEY = process.env.TMDB_KEY;
 const BASE_URL = "https://hentaiplanet.info/";
 
 // Scraper Function
